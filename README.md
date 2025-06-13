@@ -1,5 +1,5 @@
 # desenvolve-introducao-web
-# Desenvolve - Nome da Cidade  Projeto Desenvolve - Itabira
+# Desenvolve - Projeto Desenvolve - Itabira
 
 ## Disciplina
 Introdução à Programação Web

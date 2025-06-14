@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Meus Filmes Favoritos</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .galeria a img {
+            width: 200px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+        .galeria a img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria de Filmes</h1>
+    <div class="galeria">
+        <a href="https://pt.wikipedia.org/wiki/Homem-Aranha:_Sem_Volta_Para_Casa" target="_blank">
+            <img src="spiderman.jpg" alt="Homem-Aranha">
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Matrix" target="_blank">
+            <img src="matrix.jpg" alt="Matrix">
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Avengers:_Endgame" target="_blank">
+            <img src="vingadores.jpg" alt="Vingadores: Ultimato">
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/The_Hangover" target="_blank">
+            <img src="hangover.jpg" alt="Se Beber, Não Case">
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Avatar_(filme)" target="_blank">
+            <img src="avatar.jpg" alt="Avatar">
+        </a>
+        <a href="https://pt.wikipedia.org/wiki/Interestelar" target="_blank">
+            <img src="interestelar.jpg" alt="Interestelar">
+        </a>
+    </div>
+</body>
+</html>

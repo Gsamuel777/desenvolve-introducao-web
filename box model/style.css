@@ -1,0 +1,79 @@
+/* 1. Diretivas gerais da página */
+body {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto; /* centraliza horizontalmente */
+  font-family: sans-serif;
+}
+
+/* Altura da seção de introdução */
+#intro {
+  height: 550px;
+}
+
+/* Remove o container #design-archives da renderização */
+#design-archives {
+  display: none;
+}
+
+/* 2. Cabeçalho */
+
+/* Fundo escuro e fonte clara */
+header {
+  background-color: #222; /* cor escura */
+  color: #eee; /* fonte clara */
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  gap: 2em; /* espaçamento entre título e subtítulo */
+}
+
+/* Título principal com espaçamento lateral */
+header h1 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* Mantém título e subtítulo lado a lado pelo flex */
+
+/* 3. Menus */
+
+/* Remover bullets dos menus laterais (assumindo <ul> com classe .menu-lateral) */
+.menu-lateral {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* Espaçamento entre itens do menu */
+.menu-lateral li {
+  margin-bottom: 1em;
+}
+
+/* 4. Rodapé */
+
+/* Fundo invertido para contraste */
+footer {
+  background-color: #222;
+  color: #eee;
+  padding: 1em;
+  margin: 4% 0; /* 4% de espaçamento externo vertical */
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+/* Links do rodapé como caixas com borda e espaçamento interno */
+footer a {
+  border: 2px solid #eee;
+  padding: 0.5em;
+  color: #eee;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+footer a:hover {
+  background-color: #eee;
+  color: #222;
+}

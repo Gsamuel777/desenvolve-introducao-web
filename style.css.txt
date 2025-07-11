@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Paleta */
+:root {
+  --cor-fundo: #0d1b2a;
+  --cor-fonte: #e0e1dd;
+  --cor-destaque: #1b263b;
+  --cor-link: #4dabf7;
+  --cor-link-hover: #82cfff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor-fundo);
+  color: var(--cor-fonte);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+h1, h2 {
+  color: var(--cor-link);
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* Links */
+a {
+  color: var(--cor-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--cor-link-hover);
+  text-decoration: underline;
+}
+
+/* Destaques */
+h3 {
+  color: var(--cor-destaque);
+  border-bottom: 2px solid var(--cor-link);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+/* Seções principais */
+.intro,
+.main,
+.sidebar {
+  padding: 2rem;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #132238;
+  color: #cdd4e2;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--cor-destaque);
+  color: white;
+}
